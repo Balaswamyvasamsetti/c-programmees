@@ -1,0 +1,11 @@
+/*D.Charan teja[MCSAIR    ROLL.NO:-37 ADC_KKD]*/
+
+bool isPowerOfTwo(long int n){
+  if(n==0){
+      return(false);
+  }
+    if((n&(n-1))==0)
+        return(true);
+    else
+        return(false);
+}
