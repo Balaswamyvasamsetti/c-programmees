@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int n,sum=0,b,k;
+	scanf("%d",&n);
+	k=n;
+	while(n!=0)
+	{
+		b=n%10;
+		sum=sum+b;
+		n=n/10;
+	}
+	if(k%sum==0)
+	{
+		printf("Harshad number");
+	}
+	else
+	{
+		printf("Not Harshad number");
+	}
+}
