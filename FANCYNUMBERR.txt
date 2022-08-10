@@ -1,0 +1,25 @@
+//V.NAGA BALA SWAMY  [MCSAIR     ROLL.NO:33   ADC_KKD]
+
+#include<stdio.h>
+int main()
+{
+	int n,s,bala=0,sai=0;
+	scanf("%d",&n);
+    while(n!=0)
+	{
+		s=n%10;
+		if(s%2==0)
+		bala=bala+1;
+		else
+			sai=sai+1;
+		n=n/10;
+	}
+	if(bala==sai)
+	{
+	printf("fancy number");
+	}
+	else
+	{
+	    printf("not facncy number");
+	}
+}
