@@ -13,11 +13,11 @@ int main()
 		sum=sum*10+rem;
 		n=n/10;
 	}
-	int n1=sum,bal=0,remm;
+	int n1=sum,bal=0,swa;
 	while(sum>0)
 	{
-		remm=sum%10;
-		bal=bal*10+remm;
+		swa=sum%10;
+		bal=bal*10+swa;
 		sum/=10;
 	}
 	printf("%d",bal);
