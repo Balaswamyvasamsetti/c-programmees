@@ -1,0 +1,23 @@
+//V.NAGA BALA SWAMY[ MCSAIR        ROLL.NO=33       ADC_KKD]
+
+#include<stdio.h>
+int main()
+{
+	int n,i,sum=0,s;
+	scanf("%d",&n);
+	for(i=1;i<n;i++)
+	{
+		s=n%i;
+		if(s==0){	
+		sum=sum+i;
+	}
+}
+		if(sum==n)
+		{
+			printf("perfect number");
+		}
+		else
+		{
+			printf("not a perfect number");
+		}
+	}

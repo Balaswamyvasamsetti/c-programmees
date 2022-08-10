@@ -1,0 +1,21 @@
+V.NAGA BALA SWAMY[MCSAIR    ROLL.NO=33         ADC_KKD]
+
+#include<stdio.h>
+int main()
+{
+    int n,i=0,temp=0,a;
+    printf("Enter Size");
+    scanf("%d",&n);
+    i=n-1;
+    while(i>=0)
+    {
+        scanf("%d",&a);
+        if(a>temp)
+        {
+            temp=a;
+            
+        }
+        i--;
+    }
+    printf("larger number=%d",temp);
+}

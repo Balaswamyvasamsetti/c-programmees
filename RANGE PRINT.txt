@@ -1,0 +1,27 @@
+//V.NAGA BALA SWAMY[MCSAIR   ROLL.NO:-33     ADC_KKD]
+
+#include <stdio.h>
+int main() {
+int n,i;
+scanf("%d%d",&i,&n);
+while(i<=n)
+{
+    if(i%20==0)
+    {
+        printf("Aditya College,kakinada\n");
+    }
+    else if(i%25==0)
+    {
+        printf("Rama\n");
+    }
+    else if(i%30==0)
+    {
+        printf("Aditya College");
+    }
+    else{
+        printf("%d\n",i);
+    }
+    i++;
+}
+    return 0;
+}

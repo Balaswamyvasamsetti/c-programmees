@@ -1,0 +1,10 @@
+V.NAGA BALA SWAMY  [MCSAIR       ROLL.NO:- 33      ADC_KKD]
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	scanf("%d",&a);
+	(a>0) ?printf("Positive"):printf("Negative");
+	  return 0;
+}

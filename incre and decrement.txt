@@ -1,0 +1,23 @@
+V.NAGA BALA SWAMY [MCSAIR     ROLL.NO:-33    ADC_KKD  ]
+
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,e;
+	int x=10,y=20;
+	a=x++ + ++y;
+	printf("a=%d\n",a);
+	x=10,y=20;
+	b=++x + --y;
+	x=10,y=20;
+	printf("b=%d\n",b);
+	c=++x - y;
+	printf("c=%d\n",c);
+	x=10,y=20;
+	d=x-- + --y;
+	printf("d=%d\n",d);
+	x=10,y=20;
+	e=x-- + --y + x++ - y++;
+	printf("e=%d",e);
+	
+}
