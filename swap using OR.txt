@@ -1,0 +1,11 @@
+V.NAGA BALA SWAMY [MCSAIR      ROLL.NO:-33       ADC_KKD]
+
+#include<stdio.h>
+int main()
+{
+	int a=10,b=20;
+	a=a^b;
+	b=a^b;
+	a=b^a;
+	printf("a=%d\nb=%d",a,b);
+}
