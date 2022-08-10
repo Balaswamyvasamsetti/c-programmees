@@ -1,0 +1,32 @@
+V.NAGA BALA SWAMY  [MCSAIR      ROLL.NO:-33        ADC_KKD]
+
+
+#include<stdio.h>
+int main()
+{
+	int custname,incom,tax;
+	printf("Customer name:");
+	scanf("%s",&custname);
+	printf("Enter income");
+	scanf("%d",&incom);
+	if(incom<150000)
+	{
+		tax=No tax;
+		printf("%d",tax);
+	}
+	else if(incom>150000 && incom<300000)
+	{
+		tax=incom/100*10;
+		printf("%d",tax);
+	}
+	else if(incom>300000 && incom<500000)
+	{
+		tax=incom/100*15;
+		printf("%d",tax);
+	}
+	else if(incom>500000)
+	{
+		tax=incom/100*20;
+		printf("%d",tax);
+	}
+}
