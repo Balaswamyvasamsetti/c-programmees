@@ -1,0 +1,18 @@
+V.NAGA BALA SWAMY[  MCSAIR        ROLL.NO:-33     ADC_KKD]
+
+include<stdio.h>
+int main()
+{
+	int c=1,i;
+	float avg,sum;
+	printf("numbers");
+	scanf("%d",&c);
+	i=0;
+while(c>=i)
+{
+	sum=sum+i;
+	i++;
+	avg=sum/c;
+}
+	printf("%.1f",avg);
+}
