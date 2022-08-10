@@ -1,0 +1,16 @@
+V.NAGA BALA SWAMY [MCSAIR    ROLL.NO-33      ADC_KKD]
+
+#include <stdio.h>
+int main() {
+   char vow;
+   scanf("%c",&vow);
+   if(vow=='a'|| vow=='e'||vow=='i'||vow=='o'||vow=='u')
+   {
+       printf("vowel");
+   }
+       else{
+           printf("consonant");
+       }
+    
+    return 0;
+}
